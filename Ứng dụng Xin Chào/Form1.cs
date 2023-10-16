@@ -19,7 +19,12 @@ namespace Ứng_dụng_Xin_Chào
 
         private void btnTiepTuc_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Xin Chào " + txtNhapTen.Text + " !");
+            MessageBox.Show("Xin Chào :3" + txtNhapTen.Text + " !");
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
